@@ -40,7 +40,7 @@
       // Simulate login process
       console.log("Logging in:", { email, password });
       alert("Login successful!");
-      window.location.href = "index.html";
+      window.location.href = "home.html";
     });
   });
 
