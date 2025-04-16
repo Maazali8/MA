@@ -28,7 +28,7 @@
     // Login form submit event
     loginForm.addEventListener("submit", (e) => {
       e.preventDefault();
-
+window.location.href = "home.html";
       const email = loginForm.querySelector("input[name='email']").value.trim();
       const password = loginForm.querySelector("input[name='pswd']").value;
 
@@ -40,7 +40,7 @@
       // Simulate login process
       console.log("Logging in:", { email, password });
       alert("Login successful!");
-      window.location.href = "home.html";
+      // window.location.href = "home.html";
     });
   });
 
